@@ -33,7 +33,7 @@
   	font-size: 1.75rem;
   }
     .h1 {
-  	font-size: 3rem;
+  	font-size: 3.5rem;
   }
 }
 
@@ -43,9 +43,11 @@
     width: 88%;
   }
    .body-large{
-  	font-size: 1.75rem;
+  	font-size: 1.5rem;
   }
-
+    .h1 {
+  	font-size: 3rem;
+  }
 }
 
 /* unvisited link */
@@ -103,6 +105,7 @@ a:active {
 }
 */
 
+
 .footer{
   color:#333333;
   background:#F5F5F5;
@@ -114,6 +117,6 @@ a:active {
   */
   box-sizing: border-box;
   bottom:0;
-
 }
+
 
