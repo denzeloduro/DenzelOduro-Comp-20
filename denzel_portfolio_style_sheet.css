@@ -7,15 +7,15 @@
 */
 
 .h1{
-	font: 40px Graphik, Inter, Source Sans Pro, Helvetica, sans-serif;
+	font: 4rem Graphik, Inter, Source Sans Pro, Helvetica, sans-serif;
 	font-weight: 500;
-	line-height:38px;
+	line-height:1.15;
 	color: #333333;
 	clear: both;
 }
 .body-large{
-	font: 20px Graphik, Inter, Source Sans Pro, Helvetica, sans-serif;
-	line-height:38px;
+	font: 2rem Graphik, Inter, Source Sans Pro, Helvetica, sans-serif;
+	line-height:1.5;
 	color: #333333;
 	clear: both;
 }
@@ -29,13 +29,23 @@
   .body-container {
     width: 80%;
   }
+  .body-large {
+  	font-size: 1.75rem;
+  }
+    .h1 {
+  	font-size: 3rem;
+  }
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 479px) {
   .body-container {
     width: 88%;
   }
+   .body-large{
+  	font-size: 1.75rem;
+  }
+
 }
 
 /* unvisited link */
@@ -106,3 +116,4 @@ a:active {
   box-sizing: border-box;
   bottom:0;
 }
+
