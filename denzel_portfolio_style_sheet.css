@@ -103,7 +103,6 @@ a:active {
 }
 */
 
-
 .footer{
   color:#333333;
   background:#F5F5F5;
@@ -115,5 +114,6 @@ a:active {
   */
   box-sizing: border-box;
   bottom:0;
+
 }
 
