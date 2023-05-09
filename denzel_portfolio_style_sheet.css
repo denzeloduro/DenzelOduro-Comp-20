@@ -6,15 +6,68 @@
 }
 */
 
+@font-face {
+font-family: 'PublicSans Web';
+src: url('PublicSans-Medium.woff');
+src: url('PublicSans-Medium.woff2') format('woff2'),
+url('PublicSans-Medium.woff') format('woff'), 
+font-weight: 500;
+font-style: normal;
+font-stretch: normal;
+}
+
+
+@font-face {
+font-family: 'PublicSans Web';
+src: url('PublicSans-Regular.woff');
+src: url('PublicSans-Regular.woff2') format('woff2'),
+url('PublicSans-Regular.woff') format('woff'), 
+font-weight: 600;
+font-style: normal;
+font-stretch: normal;
+} 
+
+
+.PublicSans-Medium {
+font-family: 'PublicSans Web', 'Helvetica', 'sans-serif';
+font-weight: 600;
+font-style: normal;
+font-stretch: normal
+}
+
+.PublicSans-Regular {
+font-family: 'PublicSans Web','Helvetica','sans-serif';
+font-weight: 400;
+font-style: normal;
+font-stretch: normal
+}
+
 .h1{
+	font-size: 4rem;
+	line-height:1.15;
+	color: #333333;
+	clear: both;
+}
+
+/*.h1{
 	font: 4rem Graphik, Inter, Source Sans Pro, Helvetica, sans-serif;
 	font-weight: 500;
 	line-height:1.15;
 	color: #333333;
 	clear: both;
 }
+*/
+
+/*
 .body-large{
 	font: 2rem Graphik, Inter, Source Sans Pro, Helvetica, sans-serif;
+	line-height:1.5;
+	color: #333333;
+	clear: both;
+} */
+
+.body-large{
+	font-size: 2rem; 
 	line-height:1.5;
 	color: #333333;
 	clear: both;
@@ -118,5 +171,4 @@ a:active {
   box-sizing: border-box;
   bottom:0;
 }
-
 
